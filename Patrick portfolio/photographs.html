@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Patrick Townsend | Photographs</title>
+
+<!-- Import CSS Styles -->
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="simplelightbox/dist/simple-lightbox.css">
+    
+</head>
+
+<body>
+    
+    
+    <!--Heder -->
+    <header>
+
+        <!-- Menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photographs.html">Photographs</a></li>
+                <li><a href="videos.html">Videos</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+
+        <!-- Gallery -->
+        <div id="gallery">
+            <a href="images/1.jpg"><img src="images/thumbs/1.jpg" alt="" title=""/></a>
+            <a href="images/2.jpg"><img src="images/thumbs/2.jpg" alt="" title=""/></a>
+            <a href="images/3.jpg"><img src="images/thumbs/3.jpg" alt="" title=""/></a>
+            <a href="images/4.jpg"><img src="images/thumbs/4.jpg" alt="" title=""/></a>
+            <a href="images/5.jpg"><img src="images/thumbs/5.jpg" alt="" title=""/></a>
+            <a href="images/6.jpg"><img src="images/thumbs/6.jpg" alt="" title=""/></a>
+            <a href="images/7.jpg"><img src="images/thumbs/7.jpg" alt="" title=""/></a>
+            <a href="images/8.jpg"><img src="images/thumbs/8.jpg" alt="" title=""/></a>
+        </div>
+        
+    </main>
+    
+    
+    
+    <!-- Slider Scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="simplelightbox/dist/simple-lightbox.js"></script>
+    
+    <script>
+    $(document).ready(function(){
+          var lightbox = new SimpleLightbox('#gallery a', {
+              
+          });
+        });
+    </script>
+    
+</body>
+</html>

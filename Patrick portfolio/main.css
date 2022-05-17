@@ -1,0 +1,128 @@
+
+/* Reset margin and padding */
+* { 
+    margin:0;
+    padding:0;
+}
+
+/* Main Page Styles */
+
+body {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.4;
+    background: #ddd;
+}
+
+/* Responsive Video and Images to Scale with Window */
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Title Styles Size and Spacing */
+
+h1 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Menu Styles – Remove Underline, Add Spacing & Hover */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 5px;
+    background: #fff;
+}
+
+ul li a:hover { 
+    background: #ccc;
+}
+
+/* Slider */
+
+#slider img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 2% 10%;
+}
+
+/* About Text Styles – Spacing */
+
+.about-text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Form Styles */
+
+.form {
+    clear: both;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+/* Gallery styles */
+
+#gallery {
+    float: left;
+    padding: 0 5%;
+    margin-bottom: 80px;
+}
+
+#gallery a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin-top: -8px;
+}
+
+#gallery a img {
+    width: 100%;
+    height: auto;
+}
+
+/* Videos */
+
+#videos {
+    text-align: center;
+}
+
+#videos iframe {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+
+
+
+
+
